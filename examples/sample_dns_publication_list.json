@@ -12,7 +12,7 @@
             "dns_record_key_under_callsign_domain": "_info._adscert",
             "dns_record_key_under_adscert_folder": "_info",
             "dns_record_values": [
-                "this is a test verifier"
+                "this_is_a_test_verifier"
             ],
             "extra_unknown_attribute": "something ignored"
         },
@@ -58,7 +58,7 @@
             "dns_record_key_under_callsign_domain": "_adscert",
             "dns_record_key_under_adscert_folder": "",
             "dns_record_values": [
-                "v=adpf;a=example.com"
+                "v=adpf a=example.com"
             ]
         }
     ]
