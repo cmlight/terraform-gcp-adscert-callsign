@@ -1,0 +1,65 @@
+{
+    "dns_entries": [
+        {
+            "call_sign_domain": "verifier.tk",
+            "call_sign_domain_and_folder": "_adscert.verifier.tk",
+            "adscert_folder_component": "_adscert",
+            "adscert_record_component": "_info",
+            "dns_record_type": "TXT",
+            "dns_record_ttl_seconds": 300,
+            "dns_record_key_fully_qualified_domain": "_info._adscert.verifier.tk",
+            "dns_record_key_fully_qualified_domain_with_dot": "_info._adscert.verifier.tk.",
+            "dns_record_key_under_callsign_domain": "_info._adscert",
+            "dns_record_key_under_adscert_folder": "_info",
+            "dns_record_values": [
+                "this is a test verifier"
+            ],
+            "extra_unknown_attribute": "something ignored"
+        },
+        {
+            "call_sign_domain": "signer.tk",
+            "call_sign_domain_and_folder": "_adscert.signer.tk",
+            "adscert_folder_component": "_adscert",
+            "adscert_record_component": "_info",
+            "dns_record_type": "TXT",
+            "dns_record_ttl_seconds": 300,
+            "dns_record_key_fully_qualified_domain": "_info._adscert.signer.tk",
+            "dns_record_key_fully_qualified_domain_with_dot": "_info._adscert.signer.tk.",
+            "dns_record_key_under_callsign_domain": "_info._adscert",
+            "dns_record_key_under_adscert_folder": "_info",
+            "dns_record_values": [
+                "this is a test"
+            ]
+        },
+        {
+            "call_sign_domain": "signer.tk",
+            "call_sign_domain_and_folder": "_adscert.signer.tk",
+            "adscert_folder_component": "_adscert",
+            "adscert_record_component": "_delivery",
+            "dns_record_type": "TXT",
+            "dns_record_ttl_seconds": 300,
+            "dns_record_key_fully_qualified_domain": "_delivery._adscert.signer.tk",
+            "dns_record_key_fully_qualified_domain_with_dot": "_delivery._adscert.signer.tk.",
+            "dns_record_key_under_callsign_domain": "_delivery._adscert",
+            "dns_record_key_under_adscert_folder": "_delivery",
+            "dns_record_values": [
+                "v=adcrtd k=x25519 h=sha256 p=w8f3160kEklYnKuxogvn5PsZQLfkWWE0gUq_4JfFm8"
+            ]
+        },
+        {
+            "call_sign_domain": "signer.tk",
+            "call_sign_domain_and_folder": "_adscert.signer.tk",
+            "adscert_folder_component": "_adscert",
+            "adscert_record_component": "",
+            "dns_record_type": "TXT",
+            "dns_record_ttl_seconds": 300,
+            "dns_record_key_fully_qualified_domain": "_adscert.signer.tk",
+            "dns_record_key_fully_qualified_domain_with_dot": "_adscert.signer.tk.",
+            "dns_record_key_under_callsign_domain": "_adscert",
+            "dns_record_key_under_adscert_folder": "",
+            "dns_record_values": [
+                "v=adpf;a=example.com"
+            ]
+        }
+    ]
+}
